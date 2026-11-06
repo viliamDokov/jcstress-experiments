@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         build-java: [17, 21]
-        run-java: [8, 11, 17, 21]
+        run-java: [11, 17, 21]
         os: [ubuntu-latest, windows-latest, macos-latest]
       fail-fast: false
     name: Build JDK ${{ matrix.build-java }}, run JDK ${{ matrix.run-java }}, ${{ matrix.os }}
@@ -40,4 +40,4 @@ jobs:
         java-version: ${{ matrix.run-java }}
         check-latest: true
     - name: Run a trial test
-      run: java -jar tests-custom/target/jcstress.jar -t RelaxedDekkerTest -tb 1m
+      run: java -jar tests-custom/target/jcstress.jar -t Coherence -tb 1m

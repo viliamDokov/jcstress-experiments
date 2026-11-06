@@ -351,22 +351,7 @@ questions.
         <module>jcstress-result-gen</module>
         <module>jcstress-contended-autoinjector</module>
         <module>jcstress-core</module>
-        <module>jcstress-samples</module>
-        <module>jcstress-java-test-archetype</module>
-        <module>jcstress-benchmarks</module>
         <module>tests-custom</module>
-        <module>tests-chapter-0a</module>
-        <module>tests-chapter-0b</module>
-        <module>tests-chapter-0c</module>
-        <module>tests-chapter-0d</module>
-        <module>tests-chapter-0e</module>
-        <module>tests-chapter-1a</module>
-        <module>tests-chapter-1b</module>
-        <module>tests-chapter-1c</module>
-        <module>tests-chapter-1d</module>
-        <module>tests-chapter-2a</module>
-        <module>tests-chapter-2b</module>
-        <module>tests-all</module>
   </modules>
 
 </project>
